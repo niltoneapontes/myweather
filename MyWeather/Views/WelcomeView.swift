@@ -14,8 +14,8 @@ struct WelcomeView: View {
     var body: some View {
         VStack {
             VStack(spacing: 20) {
-                Text("Welcome to MyWeather").bold().font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                Text("Share your current location to get started").font(.subheadline).padding()
+                Text("Boas-vindas ao MyWeather").bold().font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).padding()
+                Text("Compartilhe a sua localização para começar").font(.subheadline).padding()
             }
             .multilineTextAlignment(.center)
             .padding()
